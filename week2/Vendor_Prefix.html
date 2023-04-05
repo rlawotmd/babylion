@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vendor_Prefix</title>
+        <style>
+            table{
+                position: relative;
+                justify-self: center;
+                margin: auto;
+            }
+
+            p{
+                width: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src = "./아이1.jpg" alt = "아이.jpg" width = "380" height = "480">
+                    </td>
+                    <td>
+                        <h1> Vendor Prefix</h1>
+                        <hr>
+                        <p>Vendor Prefix는 브라우저 제조업체가 새로운 CSS 속성이나 값을 실험하고 테스트하기 위해 사용하는 접두어(prefix)입니다. 이는 브라우저에서 해당 CSS 속성을 지원하지 않을 때, 벤더 프리픽스를 사용하여 실험 중인 속성을 적용할 수 있도록 합니다.</p>
+                        <p>예를 들어, 브라우저에서 아직 지원되지 않는 "border-radius" 속성의 경우, 벤더 프리픽스를 포함한 다음과 같은 CSS 코드를 사용할 수 있습니다.</p>
+                        <img src = "./예시1.jpg" alt = "예시.jpg" style = "width : 1000; height : 200;">
+                        <br>
+                        <p>위의 코드에서 -webkit-는 Safari, Chrome, Opera와 같은 WebKit 엔진을 사용하는 브라우저에서 사용되며, -moz-는 Firefox와 같은 Gecko 엔진을 사용하는 브라우저에서 사용됩니다.</p>
+                        <p>하지만 벤더 프리픽스는 표준화된 CSS 속성과 달리 브라우저 제조업체마다 다르게 구현되기 때문에, CSS 파일의 용량을 증가시키고 유지보수를 어렵게 만들 수 있습니다. 따라서, 가능한 한 벤더 프리픽스를 사용하지 않고, 브라우저 지원 범위를 확인하여 표준 CSS 속성을 사용하는 것이 좋습니다.</p>
+                    </td>
+                    <td>
+                        <img src = "./아이2.jpg" alt = "아이.jpg" width = "370" height = "500">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
